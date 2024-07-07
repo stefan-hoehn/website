@@ -105,8 +105,7 @@ header.headroom--top
 
 .after-jumbotron
   .placeholder
-    height calc(760px - 3.6rem)
-    min-height calc(600px - 3.6rem)
+    height calc(760px - 1.8rem)
 
 .home-header + .theme-default-content
   padding 0 !important
@@ -129,7 +128,6 @@ import OpenSourceSection from '../../components/home/OpenSourceSection.vue'
 import CommunitySection from '../../components/home/CommunitySection.vue'
 import EventsSection from '../../components/home/EventsSection.vue'
 import AlternativeToSection from '../../components/home/AlternativeToSection.vue'
-import TweetsSection from '../../components/home/TweetsSection.vue'
 
 let hr = null
 
@@ -147,7 +145,6 @@ export default {
     OpenSourceSection,
     CommunitySection,
     EventsSection,
-    TweetsSection,
     AlternativeToSection,
     Footer,
     // TwitterTimeline

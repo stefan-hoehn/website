@@ -37,7 +37,7 @@ Information provided according to Sec. 5 German Telemedia Act (TMG)
 
 ### Executive Board
 
-<p>Kai Kreuzer, President<br />Dan Cunningham, Vice President<br />Hans-Jörg Merk, Chief Financial Officer</p>
+<p>Kai Kreuzer, President<br />Dan Cunningham, Vice President<br />Jerome Luckenbach, Chief Financial Officer</p>
 <p>Register of Associations: Darmstadt 83855</p>
 
 ### Responsible for Journalistic-Editorial Contents
@@ -57,7 +57,7 @@ regarding the use of our website and the mobile reference applications.
 
 openHAB is a registered trademark of Kai Kreuzer in the EU, the US and other countries.
 
-Rules for the re-use of the openHAB logo can be found [here](/about/logos.html).
+Rules for the re-use of the openHAB trademark and logo can be found in our [Trademark Policy](/about/trademark.html).
 
 ## Liability for Contents
 

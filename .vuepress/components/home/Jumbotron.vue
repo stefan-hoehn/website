@@ -3,7 +3,7 @@
     <div class="hero-image"></div>
     <ClientOnly><img draggable="false" class="jumbotron-pattern" src="/pattern.png" alt=""></ClientOnly>
     <div class="hero-content">
-      <div class="white-logo"><ClientOnly><img src="/logo-white.png" class="white-logo" /></ClientOnly></div>
+      <div class="white-logo"><ClientOnly><img src="/openhab-logo.svg" class="white-logo" /></ClientOnly></div>
       <h1 class="hero">empowering the smart home</h1>
       <h2 class="lead">a vendor and technology agnostic open source automation software for your home</h2>
       <router-link to="docs/" class="action-button">Get Started ➜</router-link>
@@ -37,7 +37,7 @@
     object-fit cover
     user-select none
   .hero-content
-    margin 90px 30px
+    margin 90px 2rem
     z-index 1
     max-width 960px
     h1.version
@@ -51,7 +51,7 @@
       width 240px
       height 80px
       img
-        filter drop-shadow(0 0 10px #666)
+        filter invert(1) grayscale(1) brightness(100) drop-shadow(0 0 10px #666)
     h1.hero
       animation 0.5s ease-out 0s 1 slideIn1
       color white

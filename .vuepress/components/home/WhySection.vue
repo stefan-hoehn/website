@@ -8,8 +8,8 @@
           </ClientOnly>
           <h3>Integrate Everything</h3>
           <p>
-            With its <router-link to="docs/#architecture-overview">pluggable architecture</router-link>
-            openHAB supports more than <router-link to="addons/">200 different technologies and systems</router-link> and thousands of devices!
+            With its <router-link to="docs/#a-deeper-dive-openhab-structure-for-advanced-users">pluggable architecture</router-link>
+            openHAB supports more than <router-link to="addons/">400 different technologies and systems</router-link> and thousands of devices!
           </p>
         </div>
         <div ref="feature2" class="feature">
@@ -22,10 +22,10 @@
           <h3>Automate with Ease</h3>
           <p>
             Use a powerful and flexible engine to design
-            <router-link to="docs/configuration/rules-dsl.html">rules</router-link>,
+            <router-link to="docs/concepts/rules.html#what-are-rules">rules</router-link>,
             with time and event-based
-            <router-link to="docs/configuration/rules-dsl.html#rule-triggers">triggers</router-link>,
-            <router-link to="docs/configuration/rules-dsl.html#scripts">scripts</router-link>,
+            <router-link to="docs/concepts/rules.html#triggers">triggers</router-link>,
+            <router-link to="docs/concepts/rules.html#scripts">scripts</router-link>,
             <router-link to="docs/configuration/actions.html">actions</router-link>,
             <router-link to="docs/configuration/actions.html#cloud-notification-actions">notifications</router-link>
             and
@@ -59,16 +59,16 @@
 .section2
   font-family 'Open Sans', sans-serif
   background white
-  padding-top 1rem
   text-align center
   h2
+    margin 2rem 0
     text-align center
     font-family 'Open Sans', sans-serif
     font-weight normal
     font-size 2.5em
   .features
-    padding 1.2rem 5rem
-    margin-top 2.5rem
+    margin 2rem
+    margin-top 1.5rem
     display flex
     flex-wrap wrap
     align-items flex-start
@@ -85,14 +85,14 @@
       padding-bottom 0
       color lighten(black, 10%)
     p
+      margin 0
       color lighten(black, 25%)
   @media (max-width: 768px)
     .features
       flex-direction column
-      padding 1.2rem 0.5rem
     .feature
+      margin-top 1rem
       max-width 100%
-      padding 0 2.5rem
 
 </style>
 

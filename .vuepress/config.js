@@ -25,11 +25,12 @@ const feedOptions = {
 
 const noAddons = process.env.OH_NOADDONS
 
+let docsVersion;
 if (!process.env.OH_DOCS_VERSION) {
-  throw new Error('Please set the OH_DOCS_VERSION environment variable to the name of the branch of the openhab-docs repo that has been prepared')
+  docsVersion = 'Pull Request'
+} else {
+  docsVersion = process.env.OH_DOCS_VERSION.replace('final-stable', 'Stable').replace('final-', '').replace('final', 'Latest').replace('.x', '')
 }
-
-const docsVersion = process.env.OH_DOCS_VERSION.replace('final-stable', 'Stable').replace('final-', '').replace('final', 'Latest').replace('.x', '')
 
 module.exports = {
   title: 'openHAB',
@@ -71,10 +72,6 @@ module.exports = {
     if (type === 'font') {
       // only preload woff2 fonts
       return /\.woff2$/.test(file)
-    }
-    if (type === 'image') {
-      // only preload important images
-      return file === 'hero.jpg'
     }
   },
   extendMarkdown(md) {
@@ -123,7 +120,7 @@ module.exports = {
   },
   serviceWorker: false,
   themeConfig: {
-    logo: `/openhab-logo.png`,
+    logo: `/openhab-logo-empowering.svg`,
     // repo: 'openhab',
     editLinks: false,
     activeHeaderLinks: false,

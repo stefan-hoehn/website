@@ -10,6 +10,7 @@ yarn-error.log*
 
 # Downloaded documentation bundle
 javadoc-*
+apidocs
 docs
 
 # Runtime data
@@ -66,6 +67,3 @@ typings/
 
 # VuePress dist
 vuepress
-
-# openhab-docs in .vuepress
-.vuepress/openhab-docs

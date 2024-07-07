@@ -13,13 +13,11 @@
 
     <featured-addons />
 
-    <!-- <open-source-section /> -->
+    <open-source-section />
 
     <community-section />
 
     <events-section />
-
-    <!-- <tweets-section /> -->
 
     <alternative-to-section />
 
@@ -37,7 +35,6 @@ import OpenSourceSection from './home/OpenSourceSection.vue'
 import CommunitySection from './home/CommunitySection.vue'
 import EventsSection from './home/EventsSection.vue'
 import AlternativeToSection from './home/AlternativeToSection.vue'
-import TweetsSection from './home/TweetsSection.vue'
 
 export default {
   components: {
@@ -50,7 +47,6 @@ export default {
     OpenSourceSection,
     CommunitySection,
     EventsSection,
-    TweetsSection,
     AlternativeToSection
   },
   mounted () {
