@@ -7,6 +7,7 @@
   .addon-logo
     float right
     margin-left 4rem
+    margin-top -3.5rem
 .addon-logo
   width 200px
   height 200px
